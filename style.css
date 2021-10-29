@@ -21,8 +21,9 @@
     --neon: #FCFF67;
     --light-neon-1: #D2FA85;
     --light-neon-2: #D1F3C2;
-
-    --shadow: -3px 0px 20px -7px #367CFF;
+    --white: #ffffff;
+    
+    --shadow: 3px 3px 10px -6px #a7a7ff;
     --border-radius: 14px;
 
     --font-heading: "Space Grotesk", "Courier New", monospace;
