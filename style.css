@@ -1,0 +1,31 @@
+/* ==================== FONTS ================ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
+
+
+/* ==================== VARIABALES ================ */
+:root
+{
+    --gradient: linear-gradient(252.82deg, #D4FC79 11.14%, rgba(143, 211, 244, 0.08) 101.56%);
+    --linear-gradient-1: #D4FC79;
+    --linear-gradient-2: #8fd2f498;
+
+    --black: #1F1F1F;
+    --bright-blue: #5274FF;
+    --light-blue: #E8F6F8;
+    --neon: #FCFF67;
+    --light-neon-1: #D2FA85;
+    --light-neon-2: #D1F3C2;
+
+    --shadow: -3px 0px 20px -7px #367CFF;
+    --border-radius: 14px;
+}
+
+/* ==================== STYLES ================ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
