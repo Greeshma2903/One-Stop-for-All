@@ -1,3 +1,8 @@
+/*
+    Stylesheet containing Global Styles common across all Stylesheets
+    📌 Import this stylesheet into other CSS files
+*/
+
 /* ==================== FONTS ================ */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
