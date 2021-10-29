@@ -24,6 +24,10 @@
 
     --shadow: -3px 0px 20px -7px #367CFF;
     --border-radius: 14px;
+
+    --font-heading: "Space Grotesk", "Courier New", monospace;
+    --font-para: "IBM Plex Sans", "Helvetica", sans-serif;
+
 }
 
 /* ==================== STYLES ================ */
