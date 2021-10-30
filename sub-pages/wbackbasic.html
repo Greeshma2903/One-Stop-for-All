@@ -7,9 +7,59 @@
         <link href="../stylesheets/wfrontbasic.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head> 
     <body>
-
+      <header>
+        <nav class="nav-bar">
+          <!-- /* <a href = "index.html"> <img src = " "></a> -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="../index.html">HOME</a></li>
+              <li class="subnav">
+                <div class="dropdown">
+                  <button class="dropbtn">ROADMAPS</button>
+                  <div class="dropdown-content">
+                    <div class="row">
+                      <div class="column">
+                        <button class="option">Web Development</button>
+                        <div class="frontend sub-column">
+                          <button class="sub-option">Frontend</button>
+                          <div class="sub-sub-column">
+                            <a href="../sub-pages/wfrontbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                            <a href="../sub-pages/wfrontintermediate.html" target="_blank"
+                              rel="noopener noreferrer">Intermediate</a>
+                            <a href="../sub-pages/wfrontadvance.html" target="_blank" rel="noopener noreferrer">Advanced</a>
+                          </div>
+                        </div>
+                        <div class="backend sub-column">
+                          <button class="sub-option">Backend</button>
+                          <div class="sub-sub-column">
+                            <a href="../sub-pages/wbackbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                            <a href="../sub-pages/wbackintermediate.html" target="_blank"
+                              rel="noopener noreferrer">Intermediate</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <button class="option"><a href="android.html" target="_blank"
+                            rel="noopener noreferrer">Android Development</a></button>
+                      </div>
+                      <div class="column">
+                        <button class="option">Data Structures</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="./resources.html">RESOURCES</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
         <section class="intro">
             <div class="container">
               <h1><strong>Roadmaps&darr;</strong></h1>
@@ -175,7 +225,16 @@
               
           </section>
           
-
+          <footer>
+            <div class="cont">
+              <h2>Want to contribute?</h2>
+              <div class="icons">
+                <a href="./sub-pages/contact.html"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/Greeshma2903/One-Stop-for-All"><i class="fab fa-github"></i></a>
+              </div>
+              <p class="rights">@Copyright 2021. All rights reserved</p>
+            </div>
+        </footer>
 
 
 

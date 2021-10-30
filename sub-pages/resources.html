@@ -26,6 +26,54 @@
     />
   </head>
   <body>
+    <header>
+      <nav class="nav-bar">
+        <!-- /* <a href = "index.html"> <img src = " "></a> -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li class="subnav">
+              <div class="dropdown">
+                <button class="dropbtn">ROADMAPS</button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column">
+                      <button class="option">Web Development</button>
+                      <div class="frontend sub-column">
+                        <button class="sub-option">Frontend</button>
+                        <div class="sub-sub-column">
+                          <a href="../sub-pages/wfrontbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                          <a href="../sub-pages/wfrontintermediate.html" target="_blank"
+                            rel="noopener noreferrer">Intermediate</a>
+                          <a href="../sub-pages/wfrontadvance.html" target="_blank" rel="noopener noreferrer">Advanced</a>
+                        </div>
+                      </div>
+                      <div class="backend sub-column">
+                        <button class="sub-option">Backend</button>
+                        <div class="sub-sub-column">
+                          <a href="../sub-pages/wbackbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                          <a href="../sub-pages/wbackintermediate.html" target="_blank"
+                            rel="noopener noreferrer">Intermediate</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <button class="option"><a href="android.html" target="_blank"
+                          rel="noopener noreferrer">Android Development</a></button>
+                    </div>
+                    <div class="column">
+                      <button class="option">Data Structures</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="./resources.html">RESOURCES</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
       <h1>Choose Path</h1>
 
@@ -1072,12 +1120,22 @@
       <!-- END Modal -->
 
     </main>
-    
+    <footer>
+      <div class="cont">
+        <h2>Want to contribute?</h2>
+        <div class="icons">
+          <a href="./sub-pages/contact.html"><i class="fa fa-envelope"></i></a>
+          <a href="https://github.com/Greeshma2903/One-Stop-for-All"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="rights">@Copyright 2021. All rights reserved</p>
+      </div>
+  </footer>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="../app.js"></script>
   </body>
 </html>
