@@ -110,9 +110,15 @@ section.home {
   text-decoration: none;
   font-family: Space Grotesk;
 }
+
 .about {
-  height: 50vh;
-  color: #000000;
+    height: 116vh;
+    color: #bbeda6;
+    width: 87rem;
+    padding: 10rem;
+    font-size: xx-large;
+    text-align: center;
+    background: black;
 }
 
 /* width of scroll-bar */
