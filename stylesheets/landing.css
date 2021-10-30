@@ -1,7 +1,7 @@
 @import url("./style.css");
 
 section.home {
-    min-height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(252.82deg, #d4fc79, #8fd3f4);
   /*background: linear-gradient(252.82deg, rgba(212, 252, 121, 1),
     rgba(143, 211, 244, 0.08)); */
@@ -112,13 +112,140 @@ section.home {
 }
 
 .about {
-    height: 116vh;
-    color: #bbeda6;
-    width: 87rem;
-    padding: 10rem;
-    font-size: xx-large;
-    text-align: center;
-    background: black;
+  height: 116vh;
+  color: #bbeda6;
+  width: 87rem;
+  padding: 10rem;
+  font-size: xx-large;
+  text-align: center;
+  background: white;
+}
+.footer {
+  position: relative;
+  height: 325px;
+  left: 0px;
+  right: -1px;
+  bottom: 0px;
+  background-color: #000000;
+  width: 100%;
+}
+.submenu {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 68.56px;
+
+  margin: 0 auto;
+  width: 581.47px;
+  border: 3px solid white;
+  padding: 20px;
+  top: -30px;
+  left: 32%;
+
+  background: #5274ff;
+  border-radius: 15px;
+}
+.subhome {
+  width: 63.19px;
+  height: 29.93px;
+  left: 8.31px;
+  top: 8.31px;
+
+  font-family: Space Grotesk;
+  font-size: 23.2809px;
+  line-height: 27px;
+  text-align: left;
+
+  /* Scheme/secondary */
+
+  color: #fcff67;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8.31461px;
+  text-decoration: none;
+}
+.subresources {
+  position: static;
+  width: 117.24px;
+  height: 29.93px;
+  left: 8.31px;
+  top: 8.31px;
+
+  font-family: Space Grotesk;
+  font-size: 23.2809px;
+  line-height: 27px;
+
+  /* Scheme/secondary */
+
+  color: #fcff67;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8.31461px;
+}
+.subcontacts {
+  position: static;
+  width: 91.46px;
+  height: 29.93px;
+  left: 8.31px;
+  top: 8.31px;
+
+  font-family: Space Grotesk;
+  font-size: 23.2809px;
+  line-height: 27px;
+  text-align: right;
+
+  /* Scheme/secondary */
+
+  color: #fcff67;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8.31461px;
+}
+.cont {
+  height: 325px;
+  left: 0px;
+  right: -1px;
+  bottom: 0px;
+  padding-top: 5%;
+  font-family: Space Grotesk;
+  font-size: 29.041px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.icons {
+  margin: 2rem;
+}
+.icons > a {
+  font-size: 2rem;
+  color: #d1f3c2;
+}
+.rights {
+  position: absolute;
+  width: 100%;
+  height: 23px;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  line-height: 2px;
+  bottom: 15px;
+
+  color: #d1f3c2;
 }
 
 /* width of scroll-bar */
