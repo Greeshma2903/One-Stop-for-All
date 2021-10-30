@@ -20,32 +20,94 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- stylesheet::landing -->
-    <link rel="stylesheet" href="./stylesheets/landing.css" />
-  </head>
-  <body>
-    <header>
-        <nav class="nav-bar">
-            <!-- /* <a href = "index.html"> <img src = " "></a> -->
-            <div class="nav-links">
-                <ul>
-                  <li><a href="">HOME</a></li>
-                  <li><a href="">ROADMAPS</a></li>
-                  <li><a href="./sub-pages/resources.html">RESOURCES</a></li>
-                  <li><a href="">CONTACT</a></li>
-                </ul>
+  <!-- icons:: Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- stylesheet::landing -->
+  <link rel="stylesheet" href="./stylesheets/landing.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <!-- /* <a href = "index.html"> <img src = " "></a> -->
+      <div class="nav-links">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li class="subnav">
+            <div class="dropdown">
+              <button class="dropbtn">ROADMAPS</button>
+              <div class="dropdown-content">
+                <div class="row">
+                  <div class="column">
+                    <button class="option">Web Development</button>
+                    <div class="frontend sub-column">
+                      <button class="sub-option">Frontend</button>
+                      <div class="sub-sub-column">
+                        <a href="./sub-pages/wfrontbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                        <a href="./sub-pages/wfrontintermediate.html" target="_blank"
+                          rel="noopener noreferrer">Intermediate</a>
+                        <a href="./sub-pages/wfrontadvance.html" target="_blank" rel="noopener noreferrer">Advanced</a>
+                      </div>
+                    </div>
+                    <div class="backend sub-column">
+                      <button class="sub-option">Backend</button>
+                      <div class="sub-sub-column">
+                        <a href="./sub-pages/wbackbasic.html" target="_blank" rel="noopener noreferrer">Basic</a>
+                        <a href="./sub-pages/wbackintermediate.html" target="_blank"
+                          rel="noopener noreferrer">Intermediate</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <button class="option"><a href="sub-pages/android.html" target="_blank" rel="noopener noreferrer">Android Development</a></button>
+                  </div>
+                  <div class="column">
+                    <button class="option">Data Structures</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </nav>
-    </header>
-    <main>
-      <section class="home">
-        <div class="tagline">ONE PLACE FOR ALL YOUR NEEDS</div>
-        <div class="buttons">
-          <div class="button1"><a href="">Roadmaps</a></div>
-          <div class="button2"><a href="./sub-pages/resources.html">Resources</a></div>
-        </div>
-        <img src="./Illustrations/illustration-landing.png" alt=" ">
-      </section>
+          </li>
+          <li><a href="./sub-pages/resources.html">RESOURCES</a></li>
+          <li><a href="./sub-pages/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="home">
+      <div class="tagline">ONE PLACE FOR ALL YOUR NEEDS</div>
+      <div class="buttons">
+        <button class="button_roadmap">Roadmaps</button>
+        <button class="button_resources">
+          <a href="./sub-pages/resources.html">Resources</a>
+        </button>
+      </div>
+      <img src="./Illustrations/illustration-landing.png" alt=" " />
+    </section>
+
+    <!-- About us part-->
+    <section class="aboutus">
+      <div class="about">
+        <h1>About Us</h1>
+        <p>
+          In this techie world, A newbie requires a guide or roadmap to help
+          him make a path for his coding journey.But when there are a lot of
+          courses, the question comes which course is beneficial , which
+          course should I pursue as begineer or which language to learn
+          first.Don't worry if you have all these questions we have got your
+          back then. To solve all quesries of all level coders.Here we are
+          presenting "One stop for all" from roadmaps to resources to practice
+          questions to installation all is here.We have divided courses in
+          different parts for user's convienence and then further added about
+          documentation, courses, roadmaps, videos, project ideas.
+        </p>
+      </div>
+    </section>
+  </main>
 
       <!-- About us part-->
       <section class="aboutus">
