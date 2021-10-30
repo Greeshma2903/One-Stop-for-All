@@ -1,24 +1,22 @@
 @import url("./style.css");
 
-section.home {
-    min-height: 100vh;
-  background: linear-gradient(252.82deg, #d4fc79, #8fd3f4);
-  /*background: linear-gradient(252.82deg, rgba(212, 252, 121, 1),
-    rgba(143, 211, 244, 0.08)); */
+p {
+  font-family: var(--font-para);
 }
 
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+}
+
+/* ========== NAVBAR =========== */
 .nav-bar {
   position: fixed;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-
-  /*position: absolute;*/
-  width: 1250px;
-  height: 63px;
-  left: calc(50% - 1250px / 2);
-  top: 48px;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
 
   z-index: 99;
 }
@@ -26,16 +24,21 @@ section.home {
   flex: 1;
   text-align: right;
 }
+.nav-links ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
 .nav-links ul li {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  /*position: relative;*/
 }
 .nav-links ul li a {
   color: #000000;
   text-decoration: none;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk", monospace;
+  font-size: 1.2rem;
 }
 .nav-links ul li::after {
   content: " ";
@@ -48,6 +51,130 @@ section.home {
 }
 .nav-links ul li:hover::after {
   width: 100%;
+}
+
+/* ------- subnav ------ */
+
+.dropdown {
+  position:relative;
+}
+
+.dropbtn {
+  background: transparent;
+  border: none;
+  font-family: "Space Grotesk",monospace;
+  font-size: 1.2rem;
+}
+
+.dropdown-content {
+  display: none;
+  /* display: block; */
+  text-align: center; 
+  background: var(--light-blue);
+  color: var(--bright-blue);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  font: 500 1rem var(--font-heading), monospace;
+  
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 100vh;
+  padding: 2rem;
+  z-index: 2;
+}
+.show{
+  display: block;
+}
+
+.dropdown-content .row {
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dropdown-content .column {
+  flex-basis: 30%;
+}
+
+.dropdown-content .column .option {
+  border: 1px solid var(--bright-blue);
+  background: transparent;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px;
+  height: 30%;
+  width: 100%;
+}
+
+.column .sub-column {
+  display:none;
+}
+
+.column:hover .sub-column {
+  display: flex;
+}
+
+.column .sub-column {
+  position: relative;
+}
+
+.column .sub-option {
+  background: var(--white);
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+}
+
+.column .sub-option:hover {
+  background: var(--yellow);
+}
+
+.column .sub-sub-column {
+  display: none;
+  background: var(--white);
+  border-radius: 5px;
+
+  position: absolute;
+  left: 80%;
+  top: 10px;
+  z-index: 1;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.column .sub-column:hover .sub-sub-column {
+  display: flex;
+}
+
+.sub-sub-column a{
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid transparent;
+}
+
+.sub-sub-column a:hover {
+  border: 2px solid var(--range);
+}
+
+/* on scroll */
+.nav-scroll {
+  width: 100%;
+  padding: 1rem 2rem;
+  background: var(--white);
+  transition: all 0.2s ease-in-out;
+  box-shadow: var(--shadow);
+}
+
+/* =========== HOME ============== */
+section.home {
+  min-height: 100vh;
+background: linear-gradient(252.82deg, #d4fc79, #8fd3f4);
+/*background: linear-gradient(252.82deg, rgba(212, 252, 121, 1),
+  rgba(143, 211, 244, 0.08)); */
 }
 .tagline {
   position: absolute;
@@ -72,43 +199,29 @@ section.home {
   align-items: flex-start;
   padding: 0px;
 
+  font-family: var(--font-heading);
+
   position: absolute;
   left: 855px;
   top: 590px;
 }
-.button1 {
-  padding: 1rem 2rem;
 
+.buttons button {
+  border: none;
+  color: white;
   background: #5274ff;
   box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
-  border-radius: 21.3953px;
+  border-radius: 25px;
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 35px;
-}
-.button1 a {
-  color: #fff;
-  text-decoration: none;
-  font-family: Space Grotesk;
-}
-.button2 {
   padding: 1rem 2rem;
-
-  background: #5274ff;
-  box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
-  border-radius: 21.3953px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 35px;
+  font-size: 1rem;
 }
-.button2 a {
+
+.button_resources a {
   color: #fff;
   text-decoration: none;
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk";
 }
 .about {
   height: 50vh;
