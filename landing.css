@@ -20,12 +20,13 @@
 
 .nav-bar{
     
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
 
-    position: absolute;
+    /*position: absolute;*/
     width: 1250px;
     height: 63px;
     left: calc(50% - 1250px/2);
@@ -33,17 +34,19 @@
 
 }
 .nav-links{
-
+    
     flex: 1;
     text-align: right;
+    
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
+    /*position: relative;*/
 }
 .nav-links ul li a{
+
     color: #000000;
     text-decoration: none;
     font-family: Space Grotesk;
@@ -91,59 +94,69 @@ color: #000000;
     height: 61px;
     left: 855px;
     top: 590px;
+
 }
 .button1{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10.6977px 21.3953px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.6977px 21.3953px;
 
-position: static;
-width: 185.84px;
-height: 61px;
-left: 220.84px;
-top: 0px;
+    position: static;
+    width: 185.84px;
+    height: 61px;
+    left: 220.84px;
+    top: 0px;
 
-/* Scheme/text-2 */
+    background: #5274FF;
+    box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
+    border-radius: 21.3953px;
 
-background: #5274FF;
-box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
-border-radius: 21.3953px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 35px;
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 35px;
+    
+}
+.button1 a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Space Grotesk;
 }
 .button2{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10.6977px 21.3953px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.6977px 21.3953px;
 
-position: static;
-width: 185.84px;
-height: 61px;
-left: 0px;
-top: 0px;
+    position: static;
+    width: 185.84px;
+    height: 61px;
+    left: 0px;
+    top: 0px;
 
-/* Scheme/text-2 */
+    background: #5274FF;
+    box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
+    border-radius: 21.3953px;
 
-background: #5274FF;
-box-shadow: 0px 3.97826px 19.8913px rgba(0, 0, 0, 0.25);
-border-radius: 21.3953px;
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 35px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 35px;
 }
+.button2 a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Space Grotesk;
+}
+.about{
+   height: 50vh;
+   color: #000000;
+}
+
 /* width of scroll-bar */
 ::-webkit-scrollbar {
     width: 13px;
