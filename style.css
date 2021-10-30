@@ -14,7 +14,7 @@
     --gradient: linear-gradient(252.82deg, #D4FC79 11.14%, rgba(143, 211, 244, 0.08) 101.56%);
     --linear-gradient-1: #D4FC79;
     --linear-gradient-2: #8fd2f498;
-
+    --highlight: #e13636;
     --black: #1F1F1F;
     --bright-blue: #5274FF;
     --light-blue: #E8F6F8;
@@ -33,7 +33,9 @@
 
 /* ==================== STYLES ================ */
 
-* {
+*,
+*::before,
+*::after {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;

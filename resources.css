@@ -23,6 +23,8 @@ main {
 h1 {
   text-transform: uppercase;
   text-align: center;
+  text-decoration: underline wavy 4px var(--bright-blue);
+  text-underline-offset: 8px;
 }
 
 /* ================ CARDS ================ */
@@ -39,6 +41,8 @@ section#path-cards {
   border-radius: 10px;
   box-shadow: var(--shadow);
   font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 500;
   padding: 1rem;
   text-transform: uppercase;
   text-align: center;
