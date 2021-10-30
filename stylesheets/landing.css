@@ -223,9 +223,15 @@ background: linear-gradient(252.82deg, #d4fc79, #8fd3f4);
   text-decoration: none;
   font-family: "Space Grotesk";
 }
+
 .about {
-  height: 50vh;
-  color: #000000;
+    height: 116vh;
+    color: #bbeda6;
+    width: 87rem;
+    padding: 10rem;
+    font-size: xx-large;
+    text-align: center;
+    background: black;
 }
 
 /* width of scroll-bar */
