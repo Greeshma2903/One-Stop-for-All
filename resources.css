@@ -73,6 +73,7 @@ div.link-dropMenu {
   background: var(--light-blue);
   padding: 1rem;
   border-radius: 5px;
+  font-family: var(--font-para);
   font-size: 14px;
 }
 
