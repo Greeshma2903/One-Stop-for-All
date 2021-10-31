@@ -1,2 +1,2 @@
-# One-Stop-for-All
+# One-Stop-for-CS
 HackNITR project
